@@ -27,4 +27,4 @@ Before refractoring, it was hard to understand why a block of code was written. 
 
 **More Information**
 
-You can get more information and understanding of this project by reading **Proposal and Analysis Report.docx** and **Final Report.docx*
+You can get more information and understanding of this project by reading **Proposal and Analysis Report.docx** and **Final Report.docx**
