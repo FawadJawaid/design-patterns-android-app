@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    >
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_toLeftOf="@+id/txtLangPopularity"
+        android:singleLine="false"
+        android:text="color"
+        android:textColor="@color/black"
+        android:ellipsize="marquee"
+         />
+
+    <TextView
+        android:id="@+id/txtPopularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:layout_below="@+id/txtName"
+        android:gravity="center_vertical"
+        android:text="TODAY"
+        android:textColor="#00fff9"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtPopularity"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/txtName"
+        android:gravity="center_vertical"
+        android:text="123"
+        android:textColor="#00fff9"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/txtAgenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="30dp"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:text="agenda" />
+
+</RelativeLayout>

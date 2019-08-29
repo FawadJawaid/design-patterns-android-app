@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+     <string-array name="vmenu_items" tools:ignore="MissingTranslation">
+        <item >Home</item>
+        <item >Make Appointment</item>
+        <item >View Appointment</item>
+        <item >About us</item>
+        <item >Credits</item>
+        
+    </string-array>
+    
+    <array name="vnav_drawer_icons">
+        <item>@drawable/sidemenu_home_large</item>
+        <item>@drawable/sidemenu_profile_large</item>
+        <item>@drawable/sidemenu_alerts_large</item>
+        <item>@drawable/sidemenu_leaderboards_large</item>
+        <item>@drawable/sidemenu_achievements_large</item>
+        <item>@drawable/sidemenu_settings_large</item>
+        <item></item>
+        <item></item>
+        
+    </array>
+</resources>

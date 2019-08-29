@@ -1,0 +1,135 @@
+<com.hci.virtualreceptionist.employee.controller.EMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- This holds our menu -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#052f3f"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/menu_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:src="@drawable/virtualrec" />
+
+        <View
+            android:id="@+id/linebelowLogo"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/whiteBackground" />
+
+        <ListView
+            android:id="@+id/activity_main_menu_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="0dp"
+            android:background="#052f3f"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/whiteBackground"
+            android:dividerHeight="1dip" >
+        </ListView>
+
+        <View
+            android:id="@+id/linebelowLogo1"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/whiteBackground" />
+
+        <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" /> 
+        
+        <!-- This holds our Log out Button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="47dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <ImageButton
+                android:id="@+id/logoutbtn"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/md__transparent"
+                android:contentDescription="@string/app_name"
+                android:gravity="center_vertical"
+                android:src="@drawable/sidemenu_logout_large" />
+
+            <TextView
+                android:id="@+id/logouttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingRight="51dp"
+                android:paddingLeft="0dp"
+                android:text="@string/exit" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- This holds our content -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_common"
+        android:orientation="vertical" >
+
+        <!-- This acts as Actionbar -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/top_bar"
+            android:background="@drawable/background"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/activity_main_content_button_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              	android:layout_marginRight="250dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/topbar_menu_icon" />
+
+        </RelativeLayout>
+
+        <!-- This is where fragment will show up -->
+
+        <FrameLayout
+            android:id="@+id/activity_main_content_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/top_bar" 
+            android:background="@drawable/background">
+        </FrameLayout>
+        
+            
+    </RelativeLayout>
+
+</com.hci.virtualreceptionist.employee.controller.EMenuLayout>

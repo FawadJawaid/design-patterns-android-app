@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+     <string-array name="emenu_items" tools:ignore="MissingTranslation">
+        <item >Home</item>
+        <item >Call a Meeting</item>
+        <item >Reschedule Meeting</item>
+        <item >Send Documents</item>
+        <item >View Documents</item>
+        <item >View Meeting Schedule</item>
+        <item >About us</item>
+        <item >Credits</item>
+        
+    </string-array>
+    
+    <array name="enav_drawer_icons">
+        <item>@drawable/sidemenu_home_large</item>
+        <item>@drawable/sidemenu_profile_large</item>
+        <item>@drawable/sidemenu_alerts_large</item>
+        <item>@drawable/sidemenu_leaderboards_large</item>
+        <item>@drawable/sidemenu_achievements_large</item>
+        <item>@drawable/sidemenu_settings_large</item>
+        <item></item>
+        <item></item>
+        
+    </array>
+</resources>

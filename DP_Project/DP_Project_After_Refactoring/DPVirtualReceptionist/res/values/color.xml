@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="md__transparent">#00000000</color>
+    <color name="whiteBackground">#ffffff</color>
+    <color name="yellow">#e4ff00</color>
+    <color name="black">#ff000000</color>
+    <color name="orange">#ff6600</color>
+    <color name="blue">#00fff9</color>
+    <color name="darkblue">#052f3f</color>
+    <color name="grey">#7e7e7e</color>
+</resources>

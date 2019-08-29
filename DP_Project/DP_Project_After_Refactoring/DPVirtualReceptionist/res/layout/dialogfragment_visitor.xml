@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="250dp"
+    android:layout_height="300dp"
+    android:background="@drawable/achievements_popup_bg_unlocked" >
+    
+     
+    <ImageButton
+        android:id="@+id/crossimgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/md__transparent"
+        android:src="@drawable/cross_icon" />
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/crossimgBtn"
+        android:layout_marginTop="26dp"
+        android:textColor="#ffffff"
+        android:hint="@string/cnic"
+        android:inputType="text|number" >
+        
+        <requestFocus /> 
+
+    </EditText>
+
+    <Button
+        android:id="@+id/visitorbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/nameeditText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="76dp"
+        android:layout_toLeftOf="@+id/crossimgBtn"
+        android:background="@color/grey"
+        android:text="@string/vis" />
+
+    <EditText
+        android:id="@+id/nameeditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usernameText"
+        android:layout_alignRight="@+id/usernameText"
+        android:layout_below="@+id/usernameText"
+        android:layout_marginTop="17dp"
+        android:textColor="#ffffff"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

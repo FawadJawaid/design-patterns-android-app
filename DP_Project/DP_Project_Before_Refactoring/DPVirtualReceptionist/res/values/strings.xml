@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VirtualReceptionist</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log">Login</string>
+    <string name="visitor">Use as a Visitor</string>
+    <string name="signup">Sign Up</string>
+    <string name="enterusername">Enter Username</string>
+    <string name="enterpasswd">Enter Password</string>
+    <string name="cnic">Enter CNIC</string>
+    <string name="name">Enter Name</string>
+    <string name="vis">Visit</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="entername">Enter Name</string>
+    <string name="enteremail">Enter Email ID</string>
+    <string name="typpasswd">Type Password</string>
+    <string name="retyppasswd">Retype Password</string>
+    <string name="title_activity_visitor">VisitorActivity</string>
+    <string name="createacc">Create Account</string>
+    <string name="logout">Log Out</string>
+    <string name="makeapp">Make Appointment</string>
+    <string name="viewapp">View Appointment</string>
+    <string name="welcome">Welcome To Virtual Recieptionist</string>
+    <string name="visdesc">You can use the following features being a visitor:</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_employee">EmployeeActivity</string>
+    <string name="nic">Enter Your NIC Number</string>
+    <string name="vsubject">Enter Subject / Reason of Appointment</string>
+    <string name="vselect">Select Date &amp; Time</string>
+    <string name="dne">Done</string>
+    <string name="nxt">Next</string>
+    <string name="vname">Enter Your Name</string>
+    <string name="aboutus">Here the description of the organization will come.</string>
+    <string name="credits"> Virtual Receptionist Developers:\n Shoaib Ahmed\n Fawad Jawaid\n Zohaib Masood\n Mohammad Zohair</string>
+    <string name="visappview">Your Appointment With Mr XYZ on 7 August 2015 at 09:00 PM is confirmed.\nPlease Be Punctual.</string>
+    <string name="callmeeting">Call Meeting</string>
+    <string name="esubject">Enter Subject / Reason For Sending</string>
+    <string name="selectfile">Select File To Send</string>
+    <string name="senddoc">Send Document</string>
+    <string name="doc">Documents</string>
+    <string name="upcoming">Upcoming Meetings</string>
+
+</resources>
